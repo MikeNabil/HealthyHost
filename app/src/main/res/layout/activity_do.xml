@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/DO1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="DO ask your doctor whether your or your family member's infection will respond to antibiotics.(If necessary, ask if a lab test is indicated to verify the type of infection.);"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space1"
+                android:layout_below="@+id/DO1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO2"
+                android:layout_below="@+id/Space1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO ask your doctor about antibiotic-resistant bacteria and what you can do to help prevent its occurrence;"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/Space2"
+                android:layout_below="@+id/DO2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/DO3"
+                android:layout_below="@+id/Space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO ask your doctor if you are being given only medicine that is needed."
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/Space3"
+                android:layout_below="@+id/DO3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/DO4"
+                android:layout_below="@+id/Space3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO ask your doctor if the strength of the antibiotic being given is only what is necessary to get a clinical result."
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/Space4"
+                android:layout_below="@+id/DO4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/DO5"
+                android:layout_below="@+id/Space4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO take antibiotics for bacterial infections if the infection is properly diagnosed and the antibiotics are prescribed by a doctor."
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/Space5"
+                android:layout_below="@+id/DO5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/DO6"
+                android:layout_below="@+id/Space5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="DO follow the exact instructions for taking your antibiotic.  Take the exact amount specified at the time that is specified.  Be sure to take the medicine for the entire time period that your doctor has prescribed.  Stopping too soon could allow the bacteria to become resistant by not killing them completely. Even if you feel better, take all of the medicine!"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            <TextView
+                android:id="@+id/Space6"
+                android:layout_below="@+id/DO6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text=" "
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
